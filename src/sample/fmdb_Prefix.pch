@@ -5,3 +5,7 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
 #endif
+
+// support sqlite3 secure
+#define SQLITE_HAS_CODEC 1
+#define CODEC_TYPE CODEC_TYPE_AES128
